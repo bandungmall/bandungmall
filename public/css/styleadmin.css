@@ -1,0 +1,369 @@
+@charset "utf-8";
+/* CSS Document */
+
+.headerwrap{
+	background:rgba(227,227,227,0.4);
+	border-bottom:1px solid #000;	
+	
+}
+
+.sideadminwrap{
+	background-color:rgba(227,227,227,0.8);
+	font-family:Calibri;
+	font-size:16px;
+}
+
+.sideadminwrap > div{
+	padding:20px;	
+	
+}
+
+.sideadminheader{
+	margin-bottom:25px;
+	background-color:rgba(227,227,227,0.5);
+	height:150px;
+}
+
+.margin-top-bottom{
+	margin:15px 0px;	
+}
+
+.right{
+	text-align:right;
+}
+
+.left{
+	text-align:left;	
+}
+
+.btn-trans{
+	background-color:transparent;
+	text-align:left;
+	color:#3C3C3C;
+}
+
+.btn-trans:hover{
+	background-color:rgba(190,190,190,0.8);
+	color:#000000;
+}
+
+.sideadminheader .glyphicon-envelope{
+	font-size:24px;
+	color:#333333;
+}
+
+.sideadminheader .glyphicon-envelope:hover{
+	color:rgba(50,50,50,0.8);
+	transition-duration:0.3s;
+	-webkit-transition-duration:0.3s;
+}
+
+.sideadminheader .badge{
+	background:#FF0000;
+	left:-5px;
+	position:relative;
+	font-size:10px;
+}
+
+.search-bar{
+	z-index:1;
+	position:absolute;	
+}
+
+.search-span{
+	z-index:2;
+	position:absolute;
+	right:0px;
+}
+
+
+.sideadmin{
+	list-style:none;
+	height:inherit;
+}
+
+.sideadmin span{
+	float:right;
+	font-size:inherit;
+}
+
+.sideadmin a{
+	color:#8F8F8F;
+
+	
+}
+
+
+
+.sideadmin a:hover{
+	text-decoration:none;	
+	color:#000;
+	transition-duration:0.3s;
+	-webkit-transition-duration:0.3s;
+}
+
+.sideadmin li{
+	padding:10px;
+	opacity:0.8;
+}
+
+.contentwrap{
+	font-family:Calibri;
+	padding:10px;
+	min-height:800px;
+}
+.contentwrap > div > div{
+	padding:10px;
+	position:relative;
+}
+	
+.wrap-header{
+	background:#272727;
+	color:#FFFFFF;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
+
+.wrap-content{
+	background:rgba(50,50,50,0.1);
+	word-wrap:break-word;	
+}
+
+.wrap-content > div{
+	margin:5px;	
+	
+}
+
+.konfirmasi-line{
+	background:rgba(255,255,255,0.8);
+	border-radius:5px;
+}
+
+.konfirmasi-line a{
+	color:#333333;
+}
+
+.konfirmasi-line a:hover{
+	text-decoration:none;
+	color:#0066FF;
+}
+
+.konfirmasi-line > a > div{
+	margin:5px;	
+}
+
+.konfirmasi-line .badge{
+	background:#F00;	
+}
+
+.konfirmasi-line button{
+	margin:15px;
+	position:relative;
+}
+
+
+.komentar-line{
+	background:rgba(255,255,255,0.8);
+	border-radius:5px;
+}
+
+.komentar-line > a > div{
+	margin:5px;	
+}
+
+.komentar-line a{
+	color:#333333;		
+}
+
+.komentar-line a:hover{
+	text-decoration:none;
+	color:#0066FF;
+}
+
+.komentar-line .badge{
+	background:#F00;	
+}
+
+.komentar-line button,.komentar-line input{
+	margin:10px;
+}
+
+.review-line{
+	background:rgba(255,255,255,0.8);
+	border-radius:5px;
+}
+
+.review-line .col-sm-9{
+	padding:10px;
+}
+.review-line div{
+	margin:10px 0px;	
+}
+.review-line a{
+	color:#333333;
+	text-align:center;
+}
+
+.review-line a:hover{
+	text-decoration:none;
+	color:#0066FF;
+}
+
+.review-line .badge{
+	background:#F00;	
+}
+
+.question-line{
+	background:rgba(255,255,255,0.8);
+	border-radius:5px;
+}
+
+.jawaban{
+	padding:15px;	
+}
+
+.jawaban a{
+	color:#0066FF;	
+}
+
+.jawab button{
+	float:right;
+}
+
+.question-line button,.question-line input{
+	margin:10px;
+}
+
+.question-line .badge{
+	background:#F00;	
+}
+
+.question-line > a > div{
+	margin:5px;	
+}
+
+.question-line a{
+	color:#333333;
+	
+}
+
+.question-line a:hover{
+	text-decoration:none;
+	color:#0066FF;
+}
+
+.merchant-daftar-line{
+	background:rgba(255,255,255,0.8);
+	border-radius:5px;
+	
+}
+
+.merchant-daftar-line form{
+	padding:15px;
+	margin:10px;
+}
+
+.mtransaksi-line{
+	background:rgba(255,255,255,0.8);
+	border-radius:5px;
+	padding:10px;	
+}
+
+.mtransaksi-line .badge{
+	background:#FF0000;	
+}
+
+.mtransaksi-line a{
+	color:#333333;
+}
+
+.mtransaksi-line a:hover{
+	text-decoration:none;
+	color:#0066FF;
+}
+
+.wrap-content table{
+	background:#EFEFF1;	
+}
+
+
+.customerreviewwrap > div{
+	padding:10px;	
+}
+
+.merchanttransaksiwrap > div{
+	padding:10px;	
+}
+
+
+.merchantdaftarwrap > div{
+	padding:10px;	
+}
+
+.customerkomentarwrap > div{
+	padding:10px;	
+}
+
+.customertransaksiwrap > div{
+	padding:10px;	
+}
+
+.customerquestionwrap > div{
+	padding:10px;	
+}
+
+.customercashwrap > div{
+	padding:10px;	
+}
+
+.merchantcontrolwrap > div{
+	padding:10px;	
+}
+
+.customercontrolwrap > div{
+	padding:10px;	
+}
+
+.tambahprodukwrap > div{
+	padding:10px;	
+}
+
+.produkcontrolwrap > div{
+	padding:10px;
+}
+
+.tambahadminwrap > div{
+	padding:10px;	
+}
+
+.admincontrolwrap > div{
+	padding:10px;	
+}
+
+.reviewwrap > div{
+	padding:10px;	
+}
+
+.komentarwrap > div{
+	padding:10px;	
+}
+
+.konfirmasiwrap > div{
+	padding:10px;	
+}
+
+.notificationwrap > div{
+	padding:10px;
+}
+
+.questionwrap > div{
+	padding:10px;	
+}
+
+.alert{
+	padding:10px;
+}
+
+.red{
+	color:#FF0000;	
+}

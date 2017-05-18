@@ -1,0 +1,17 @@
+[25-Nov-2016 07:04:32 Asia/Jakarta] PHP Fatal error:  Call to undefined method OAuth::consumer() in /home/tokocerdas/public_html/app/controllers/LoginFacebookController.php on line 27
+[25-Nov-2016 07:22:24 Asia/Jakarta] PHP Fatal error:  Call to undefined method OAuth::consumer() in /home/tokocerdas/public_html/app/controllers/LoginFacebookController.php on line 18
+[27-Nov-2016 09:15:19 Asia/Jakarta] PHP Fatal error:  Call to undefined method OAuth::consumer() in /home/tokocerdas/public_html/app/controllers/LoginGoogleController.php on line 8
+[27-Nov-2016 11:24:33 Asia/Jakarta] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::paginate() in /home/tokocerdas/public_html/app/controllers/ProductController.php on line 27
+[27-Nov-2016 11:29:06 Asia/Jakarta] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::links() in /home/tokocerdas/public_html/app/storage/views/a181c5842e70576f0fcde7130c973a38 on line 90
+[27-Nov-2016 11:39:19 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tokocerdas/public_html/app/storage/views/a181c5842e70576f0fcde7130c973a38 on line 95
+[27-Nov-2016 11:43:32 Asia/Jakarta] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::appends() in /home/tokocerdas/public_html/app/storage/views/a181c5842e70576f0fcde7130c973a38 on line 94
+[08-Dec-2016 22:19:05 Asia/Jakarta] PHP Fatal error:  Class 'Coupon' not found in /home/tokocerdas/public_html/app/controllers/CheckoutController.php on line 62
+[08-Dec-2016 22:19:15 Asia/Jakarta] PHP Fatal error:  Class 'Coupon' not found in /home/tokocerdas/public_html/app/controllers/CheckoutController.php on line 62
+[08-Dec-2016 22:19:40 Asia/Jakarta] PHP Fatal error:  Class 'Coupon' not found in /home/tokocerdas/public_html/app/controllers/CheckoutController.php on line 62
+[08-Dec-2016 22:20:27 Asia/Jakarta] PHP Fatal error:  Class 'Coupon' not found in /home/tokocerdas/public_html/app/controllers/CheckoutController.php on line 62
+[11-Dec-2016 12:01:04 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '{' in /home/tokocerdas/public_html/app/controllers/ProductController.php on line 35
+[11-Dec-2016 12:01:11 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '{' in /home/tokocerdas/public_html/app/controllers/ProductController.php on line 35
+[11-Dec-2016 12:01:57 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '{' in /home/tokocerdas/public_html/app/controllers/ProductController.php on line 35
+[11-Dec-2016 12:45:30 Asia/Jakarta] PHP Fatal error:  Call to undefined function now() in /home/tokocerdas/public_html/app/controllers/ProductController.php on line 48
+[11-Dec-2016 12:45:44 Asia/Jakarta] PHP Fatal error:  Call to undefined function now() in /home/tokocerdas/public_html/app/controllers/ProductController.php on line 48
+[11-Dec-2016 12:47:01 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '%' in /home/tokocerdas/public_html/app/controllers/ProductController.php on line 48

@@ -1,0 +1,196 @@
+@import 'style';
+
+.category-section {
+    display: table;
+    padding-bottom: 0;
+    max-width: 1200px;
+
+    h2.category-title {
+        font-size: 14pt;
+        font-weight: 700;
+    }
+
+    h3.nav-title {
+        font-size: 12pt;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .subcategories {
+        display: table-cell;
+        border-right: 1px solid #ccc;
+        vertical-align: top;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .category-nav {
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ccc;
+
+            .nav-links {
+                list-style: none;
+                padding-left: 12px;
+
+                & > li {
+                    @extend a;
+                    padding-top: 3px;
+                    padding-bottom: 3px;
+                }
+            }
+        }
+
+        .category-promo {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 615px;
+        }
+    }
+
+    .main-content {
+        width: 1200px - 250px;
+        min-width: 1200px - 250px;
+        max-width: 1200px - 250px;
+        display: table-cell;
+        padding: 15px 15px 40px 15px;
+
+        .title-line {
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+            .title-text {
+                background-color: #fff;
+                font-weight: 600;
+                padding-left: 8px;
+                padding-right: 8px;
+                font-size: 12pt;
+            }
+
+            hr {
+                border: none;
+                height: 1px;
+                background: #ccc;
+                margin: 0;
+                margin-top: -11px;
+            }
+        }
+
+        .highlight-row {
+            display: table;
+            padding-bottom: 25px;
+            width: 100%;
+            table-layout: fixed;
+
+            .highlight-column {
+                display: table-cell;
+                width: 1px;
+
+                .highlight-img {
+                    background-size: cover;
+                    background-position: center center;
+                    height: 260px;
+                }
+
+                .highlight-caption {
+                    font-weight: 600;
+                    font-size: 14pt;
+                    text-align: center;
+                }
+            }
+        }
+
+        .recommend {
+            display: block;
+
+            .recommend-row {
+                display: table;
+                width: 100%;
+
+                .recommend-img {
+                    background-size: cover;
+                    background-position: center center;
+                    display: table-cell;
+                    height: 258px;
+                }
+            }
+        }
+
+        .special-offers {
+            display: table;
+
+            .offer {
+                display: table-cell;
+                border: 1px solid transparent;
+                padding: 10px;
+                width: 20%;
+                cursor: pointer;
+
+                &:hover {
+                    border: 1px solid #ccc;
+                }
+
+                .offer-image {
+                    background-size: cover;
+                    background-position: center center;
+                    width: 110px;
+                    height: 110px;
+                    margin: 0 auto;
+                }
+
+                .offer-price-slash {
+                    text-decoration: line-through;
+                    font-size: 8pt;
+                    opacity: 0.4;
+                }
+
+                .offer-price-discount {
+                    color: #f08020;
+                    font-size: 12pt;
+                    font-weight: 600;
+                }
+                
+                .offer-price-off {
+                    display: inline-block;
+                    padding: 5px;
+                    border: 1px solid #f08020;
+                    color: #f08020;
+                    font-weight: 600;
+                }
+
+                .offer-installment {
+                    color: #20d060;
+                    font-size: 8pt;
+                }
+            }
+        }
+    
+        .brands {
+            display: table;
+            table-layout: fixed;
+            background: #ccc;
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 1px;
+            padding-bottom: 0;
+            margin-top: 40px;
+            margin-bottom: 20px;
+
+            .brands-row {
+                display: table-row;
+
+                .brand {
+                    background: #fff;
+                    display: table-cell;
+                    width: 1px;
+                    text-align: center;
+                    height: 40px;
+                    vertical-align: middle;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

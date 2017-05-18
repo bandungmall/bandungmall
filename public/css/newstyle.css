@@ -1,0 +1,39 @@
+.featured-promo {
+
+}
+
+.featured-promo > .trow {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 20px;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+}
+
+.featured-promo > .trow > .tcol {
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+}
+
+.featured-promo > .trow > .tcol > .image {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.featured-promo .trow.one .tcol.two-image .image {
+    height: 190px;
+}
+.featured-promo .trow.one .tcol.two-image .image:first-child {
+    margin-bottom: 20px;
+}
+
+.featured-promo .trow.two {
+    margin-top: 20px;
+}
+.featured-promo .trow.two .tcol {
+    width: 590px;
+}

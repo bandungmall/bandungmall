@@ -1,0 +1,9 @@
+* home
+* category
+* product detail
+* cart
+* checkout
+* profile
+* final order
+* history order
+* help
